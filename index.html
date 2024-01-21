@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <title>AI Poem Generator</title>
   </head>
@@ -16,11 +17,12 @@
       <form id="poem-generator-form">
         <input
           type="text"
-          placeholder="Choose a topic for the german poem."
+          placeholder="Choose a topic for the poem."
           autocomplete="off"
           autofocus
           required
           class="instructions"
+          id="user-input"
         />
         <input type="submit" value="Confirm" class="submit-button" />
       </form>

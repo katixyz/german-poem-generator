@@ -12,22 +12,24 @@
   </head>
   <body>
     <div class="container">
-      <h1>AI Poem Generator</h1>
+      <h1>AI Poem Generator 👩‍🎨</h1>
 
-      <form id="poem-generator-form">
-        <input
-          type="text"
-          placeholder="Choose a topic for the poem."
-          autocomplete="off"
-          autofocus
-          required
-          class="instructions"
-          id="user-input"
-        />
-        <input type="submit" value="Confirm" class="submit-button" />
-      </form>
-
-      <div class="poem" id="poem"></div>
+      <div class="form-container">
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Choose a topic for the poem."
+            autocomplete="off"
+            autofocus
+            required
+            class="instructions"
+            id="user-input"
+          />
+          <input type="submit" value="Confirm" class="submit-button" />
+        </form>
+        <div class="hint">i.e. flowers, waves or wine</div>
+      </div>
+      <div class="poem hidden" id="poem"></div>
 
       <footer>
         This AI Project is coded by
